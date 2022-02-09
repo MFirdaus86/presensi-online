@@ -4,11 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/drawable/bg_btn_primary.xml" value="0.332" />
+        <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/drawable/bg_capture_photo.xml" value="0.332" />
         <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/drawable/bg_edit_text.xml" value="0.332" />
+        <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/drawable/bg_handler_bottom_sheet.xml" value="0.332" />
         <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/layout/activity_splash.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/layout/bottom_sheet_attendance.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/layout/fragment_attendance.xml" value="0.25" />
         <entry key="..\:/Users/BOND/AndroidStudioProjects/LiveAttendanceApp/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
       </map>
     </option>
