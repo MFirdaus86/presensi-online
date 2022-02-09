@@ -26,7 +26,8 @@
             android:text="@string/hello_sign_in_your_account"
             android:textColor="@android:color/darker_gray"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -42,7 +43,8 @@
                 android:hint="@string/phone_email"
                 android:inputType="textEmailAddress"
                 android:paddingStart="16dp"
-                android:paddingEnd="16dp"/>
+                android:paddingEnd="16dp"
+                tools:ignore="TextContrastCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -59,18 +61,32 @@
                 android:layout_height="match_parent"
                 android:background="@drawable/bg_edit_text"
                 android:hint="@string/password"
+                android:inputType="textPassword"
                 android:paddingStart="16dp"
                 android:paddingEnd="16dp"
-                android:inputType="textPassword"/>
+                tools:ignore="TextContrastCheck" />
         </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btn_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/forgot_password"
+            android:textColor="@color/colorPrimaryDark"
+            android:textAllCaps="false"
+            android:layout_gravity="end"
+            android:layout_marginTop="20dp"/>
+
 
         <Button
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
             android:text="@string/login"
-            android:textColor="@android:color/white"
-            android:background="@drawable/bg_btn_primary"/>
+            android:textColor="@android:color/white"/>
+
     </LinearLayout>
 
 </ScrollView>
