@@ -79,11 +79,11 @@
             android:layout_marginTop="20dp"/>
 
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/colorPrimary"
+            android:background="@drawable/bg_btn_primary"
             android:text="@string/login"
             android:textColor="@android:color/white"/>
 
