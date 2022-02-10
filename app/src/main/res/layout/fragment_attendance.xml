@@ -19,7 +19,7 @@
         layout="@layout/layout_current_time_dialog"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp"/>
-
+  
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab_get_current_location"
         android:layout_width="wrap_content"
