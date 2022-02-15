@@ -15,7 +15,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField "String", "BASE_URL", "\"http://127.0.0.1:8080/presensi_online/public/api/\""
+        buildConfigField "String", "BASE_URL", "\"http://172.17.12.89:8080/presensi-online/public/api/\""
     }
 
     buildTypes {

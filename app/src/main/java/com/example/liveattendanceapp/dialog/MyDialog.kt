@@ -1,5 +1,6 @@
 package com.example.liveattendanceapp.dialog
 
+import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.content.Context
 import android.view.LayoutInflater
@@ -15,6 +16,7 @@ object MyDialog{
             .show()
     }
 
+    @SuppressLint("InflateParams")
     fun showProgressDialog(context: Context?){
         val dialogView = LayoutInflater.from(context).inflate(R.layout.layout_progress,null)
         dialogBuilder = AlertDialog.Builder(context)
