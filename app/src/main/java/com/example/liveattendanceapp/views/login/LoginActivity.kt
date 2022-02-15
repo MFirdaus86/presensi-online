@@ -99,7 +99,7 @@ class LoginActivity : AppCompatActivity() {
 
                 override fun onFailure(call: Call<LoginResponse>, t: Throwable) {
                     MyDialog.hideDialog()
-                    Log.d(TAG, "Error : ${t.message}")
+                    Log.e(TAG, "Error : ${t.message}")
                 }
 
             })
